@@ -89,6 +89,12 @@ body{
 }
 
 
+a{
+    color:lightblue;
+    font-weight: bold;
+}
+
+
 
 @media(max-width:1200px){
     .nav-logo img{
@@ -147,6 +153,7 @@ body{
     text-decoration: none;
     transition: .5s;
     border-right: dotted white;
+    font-weight: bolder;
 }
 
 .nav-button a:hover{
@@ -227,10 +234,6 @@ body{
     padding-bottom: 5vw;
 }
 
-a{
-    color:lightblue;
-}
-
 
 
 .content-table{
@@ -259,5 +262,9 @@ a{
 }
 
 .iconimage{
+    text-align: center;
+}
+
+.recipeimage{
     text-align: center;
 }
